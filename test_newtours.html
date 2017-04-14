@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.newtours.demoaut.com/" />
+<title>test_newtours</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test_newtours</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=SIGN-ON</td>
+	<td></td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=userName</td>
+	<td>kasia123</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=password</td>
+	<td>qwe123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.getElementsByName(&quot;tripType&quot;)[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=passCount</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=fromPort</td>
+	<td>label=Zurich</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=fromMonth</td>
+	<td>label=March</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=fromDay</td>
+	<td>label=10</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=toPort</td>
+	<td>label=Seattle</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=toMonth</td>
+	<td>label=October</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=toDay</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.getElementsByName(&quot;servClass&quot;)[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=airline</td>
+	<td>label=Pangea Airlines</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=findFlights</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.getElementsByName(&quot;outFlight&quot;)[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.getElementsByName(&quot;inFlight&quot;)[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=reserveFlights</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=(/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[1]/td/font/font/b/font/font)</td>
+	<td>Summary</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Book a Flight: Mercury Tours</td>
+	<td></td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=passFirst0</td>
+	<td>Anna</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=passLast0</td>
+	<td>Kowalska</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=pass.0.meal</td>
+	<td>label=Hindu</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=creditCard</td>
+	<td>label=Visa</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=creditnumber</td>
+	<td>123456789</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=cc_exp_dt_mn</td>
+	<td>label=04</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=cc_exp_dt_yr</td>
+	<td>2010</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=cc_frst_name</td>
+	<td>Anna</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=cc_last_name</td>
+	<td>Kowalska</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=ticketLess</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billAddress1</td>
+	<td> </td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=billAddress1</td>
+	<td>ulica Pierwsza</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billCity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=billCity</td>
+	<td>Lublin</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=billCountry</td>
+	<td>label=POLAND</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=buyFlights</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Flight Confirmation: Mercury Tours</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td/table/tbody/tr/td[2]/table/tbody/tr/td/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//td/table/tbody/tr/td[2]/table/tbody/tr/td/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=SIGN-OFF</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
